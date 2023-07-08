@@ -184,7 +184,7 @@
                 <form class="mx-auto" style="max-width: 600px;">
                     <div class="input-group">
                         <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                        <button class="btn btn-dark px-4" onclick="showSuccessMessage(event)">Sign Up</button>
+                        <button class="btn btn-dark px-4" onclick="showSuccess(event)">Sign Up</button>
                     </div>
                 </form>
                 <div id="successMessage" class="mt-3 alert alert-success" style="display: none;">Signed up successfully!</div>
@@ -248,7 +248,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script>
-        function showSuccessMessage(event) {
+        function showSuccess(event) {
             event.preventDefault(); // Prevent form submission
     
             var successMessage = document.getElementById("successMessage");
