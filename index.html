@@ -240,7 +240,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit" onclick="showSuccessMessage(event)" >Make Appointment</button>
+                                    <button class="btn btn-dark w-100 py-3" type="submit" onclick="showMessage(event)" >Make Appointment</button>
                                 </div>
                             </div>
                         </form>
@@ -361,7 +361,7 @@
     </script>
 
 <script>
-    function showSuccessMessage(event) {
+    function showMessage(event) {
         event.preventDefault(); // Prevent form submission
 
         var successMessage = document.getElementById("appoint");
